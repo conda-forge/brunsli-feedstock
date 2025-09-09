@@ -28,7 +28,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
-    - cmake
+    - cmake <4
     - make   # [unix]
     - ninja  # [win]
   host:
